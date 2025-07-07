@@ -1,4 +1,3 @@
-// ffmpeg_webhook_server/index.js
 const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
@@ -103,4 +102,3 @@ app.post('/render', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-Add index.js
